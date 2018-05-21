@@ -18,13 +18,30 @@
 		<property name="dataSource" ref="datasource" />
 	</bean>
 
-	<bean id="datasource"
+	<!--  <bean id="datasource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/myusers" />
-		<!-- <property name="url" value="jdbc:mysql:18.236.181.68//localhost:3306/chatbot" />  --> 
 		<property name="username" value="root" />
 		<property name="password" value="tecsup" />
+	</bean> -->
+	
+	<bean id="datasource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://54.201.59.102/myusers" />
+		<property name="username" value="jhosepv13" />
+		<property name="password" value="" />
 	</bean>
-
+	
+	<!-- 
+	<bean id="datasource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://laravel-project-jhosepv13.c9users.io/myusers" />
+		<property name="username" value="jhosepv13" />
+		<property name="password" value="" />
+	</bean>
+	
+	 -->
 </beans>
